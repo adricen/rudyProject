@@ -1,0 +1,71 @@
+{
+  {
+    "_id" : ObjectId("599ffcfcd4810f0a193ed0bf"),
+    "name" : "Meewo cheese",
+    "category" : "sandwich",
+    "price" : 8.0,
+    "ingredients" : [
+        "pain",
+        "fromage",
+        "meewo"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffd3fd4810f0a193ed0e1"),
+    "name" : "Guizmo cheese",
+    "category" : "sandwich",
+    "price" : 11.0,
+    "ingredients" : [
+        "pain",
+        "fromage",
+        "boulettes de poil"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffd78d4810f0a193ed0f4"),
+    "name" : "Alf cheese",
+    "category" : "sandwich",
+    "price" : 11.0,
+    "ingredients" : [
+        "pain",
+        "fromage",
+        "boulettes de poil",
+        "corne séchée"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffdd9d4810f0a193ed117"),
+    "name" : "Furby gluant",
+    "category" : "sandwich",
+    "price" : 9.0,
+    "ingredients" : [
+        "pain",
+        "sauce soja",
+        "boulettes de poil"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffe41d4810f0a193ed13c"),
+    "name" : "Arielle",
+    "category" : "accompagnement",
+    "price" : 7.0,
+    "ingredients" : [
+        "queues de poissons"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffea1d4810f0a193ed15b"),
+    "name" : "Fly cocktail",
+    "category" : "boisson",
+    "price" : 5.0,
+    "ingredients" : [
+        "dragon juice"
+    ],
+    "type" : "article"
+}
+}

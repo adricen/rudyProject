@@ -1,0 +1,136 @@
+
+***********************************
+*      TEST DES INGREDIENTS       *
+***********************************
+
+
+
+PREFACE
+———————————————————————————————————
+
+
+"Alors, si votre climatiseur ou votre machine à laver sautent, si votre magnétoscope tombe en panne, avant d'appeler le réparateur, allumez toutes les lumières, ouvrez les placards et regardez sous tous les lits. Parce qu'on ne sait jamais. Il se pourrait qu'il y ait un Gremlin chez vous."
+
+C'est sur cette phrase que finit Gremlins de Joe Dante, et ce n'est pas vraiment tranquillisant. Pour rappel, Gremlins raconte l'histoire de Rand Peltzer et de sa famille. Il rapporte pour l'anniversaire de son fils Billy un petit animal, un Mogwai prénommé Gizmo, qu'il a acheté (difficilement) dans un bazar chinois, avec les trois indications suivantes:
+
+- Eviter la lumière intense et surtout la lumière du jour qui pourrait le tuer.
+
+- Ne jamais l'asperger d'eau de quelque manière que ce soit.
+
+- Et le plus important: ne jamais, mais alors jamais donner à manger après minuit.
+
+
+
+DESCRIPTION
+———————————————————————————————————
+
+
+L’un des foodtrucks clients de HandyOrder a pour spécialité un fameux plat asiatique : les boulettes de poil (plat typique du mercredi soir ! Deux tranches de pain de mie, du fromage, et la fameuse boulette de poil. Le tout toasté).
+
+
+Malheureusement, mercredi soir dernier, le cuistot a eu la mauvaise surprise de découvrir que les boulettes de poils qu’il avait préparées se transformaient en une immondice verte et gluante au contact de l’eau.
+
+Impossible donc de préparer toutes les recettes de la carte dans lesquelles il y avait comme ingrédient : des boulettes de poil ! Le chef ne pouvait pas retirer les plats concernés du menu.
+
+
+Pour pallier ce problème à l’avenir, ton objectif est de coder une nouvelle brique du système de commande.
+
+Fais un site pour pouvoir afficher la carte du foodtruck : les articles de la carte du foodtruck doivent s’afficher ou non suivant la disponibilité des ingrédients qui les composent. En d’autres termes, si j’actualise le statut d’un ingrédient comme “indisponible”, tous les articles contenant cet ingrédient ne doivent plus s’afficher. 
+
+Tu n’as pas besoin de réaliser la gestion du panier de commande.
+
+
+CONSIGNES
+———————————————————————————————————
+- le front end doit être en Angular ou React
+- Le back-end doit être en Node.js et utiliser le framework Express
+- Les changements de statut / la récupération des ingrédients doit se faire en AJAX via des API REST
+- Tu as le choix du format pour stocker la carte du foodtruck mais elle doit se trouver dans un fichier .json
+- Nous serons particulièrement attentifs à la facilité d’utilisation et à la sécurité du système
+
+
+Bonus:
+- une version postée de ton app
+- utiliser mongodb pour stocker la carte du foodtruck
+- pouvoir filtrer les ingrédients en fonction de catégories
+- animations lors du changement de statut d’un ingrédient
+- un design pas trop moche !
+
+
+
+
+RESSOURCES
+———————————————————————————————————
+La carte du foodtruck se trouve juste en dessous. Tous les articles ci-dessous doivent se trouver sur la carte, mais tu es libre de créer plus d’articles pour faire fonctionner ton app ;-)
+
+
+
+[{
+    "_id" : ObjectId("599ffcfcd4810f0a193ed0bf"),
+    "name" : "Meewo cheese",
+    "category" : "sandwich",
+    "price" : 8.0,
+    "ingredients" : [ 
+        "pain", 
+        "fromage", 
+        "meewo"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffd3fd4810f0a193ed0e1"),
+    "name" : "Guizmo cheese",
+    "category" : "sandwich",
+    "price" : 11.0,
+    "ingredients" : [ 
+        "pain", 
+        "fromage", 
+        "boulettes de poil"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffd78d4810f0a193ed0f4"),
+    "name" : "Alf cheese",
+    "category" : "sandwich",
+    "price" : 11.0,
+    "ingredients" : [ 
+        "pain", 
+        "fromage", 
+        "boulettes de poil", 
+        "corne séchée"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffdd9d4810f0a193ed117"),
+    "name" : "Furby gluant",
+    "category" : "sandwich",
+    "price" : 9.0,
+    "ingredients" : [ 
+        "pain", 
+        "sauce soja", 
+        "boulettes de poil"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffe41d4810f0a193ed13c"),
+    "name" : "Arielle",
+    "category" : "accompagnement",
+    "price" : 7.0,
+    "ingredients" : [ 
+        "queues de poissons"
+    ],
+    "type" : "article"
+},
+{
+    "_id" : ObjectId("599ffea1d4810f0a193ed15b"),
+    "name" : "Fly cocktail",
+    "category" : "boisson",
+    "price" : 5.0,
+    "ingredients" : [ 
+        "dragon juice"
+    ],
+    "type" : "article"
+}]
